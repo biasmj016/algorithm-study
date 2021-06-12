@@ -1,4 +1,4 @@
-package com.abcms031.study.algorithm.hash.level1;
+package com.abcms031.study.algorithm.해시.level1;
 
 import java.util.Arrays;
 
