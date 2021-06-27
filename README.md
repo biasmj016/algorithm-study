@@ -4,6 +4,8 @@ algorithm-study
 
 * 사용 언어   
   * Java   
+  * goLang
+  * Python
   
 * IDE   
   * IntelliJ   
@@ -11,6 +13,7 @@ algorithm-study
 * 알고리즘 사이트(풀 때마다 갱신 예정)
     * 프로그래머스: https://programmers.co.kr/learn/challenges
     * 백준: https://www.acmicpc.net/step
+    * 코딜리티: https://www.codility.com/
 
 
 * 알고리즘 3요소
