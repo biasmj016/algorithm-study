@@ -1,4 +1,4 @@
-package com.abcms.code.test.재귀;
+package com.abcms031.study.algorithm.boj.재귀;
 
 public class P10872 {
     public int solution(int x) {
