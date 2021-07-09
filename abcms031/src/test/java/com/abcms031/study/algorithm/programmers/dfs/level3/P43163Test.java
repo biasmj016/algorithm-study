@@ -1,5 +1,6 @@
 package com.abcms031.study.algorithm.programmers.dfs.level3;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -15,7 +16,7 @@ class P43163Test {
         String target = "cog";
         String[] arr = {"hot", "dot", "dog", "lot", "log", "cog"};
 
-        System.out.println(solution.solution(begin,target,arr));
+        Assertions.assertEquals(4, solution.solution(begin,target,arr));
 
     }
 }

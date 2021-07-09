@@ -10,7 +10,6 @@ public class P43163 {
             if(!beginArray.equals(targetArray)){
                 for(int i = 0; i < beginArray.length ; i++){
                     if(words[idx].charAt(i) == targetArray[i] && targetArray[i] != beginArray[i]){
-                        System.out.println(words[idx]+"    "+beginArray[i]+"   "+targetArray[i]);
                         beginArray[i] = targetArray[i];
                         answer++;
                         break;
@@ -18,7 +17,6 @@ public class P43163 {
                 }
             }
         }
-        System.out.println(new String(beginArray));
 
         return new String(beginArray).equals(target) ? answer : 0;
     }
